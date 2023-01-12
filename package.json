@@ -1,0 +1,35 @@
+{
+  "name": "yzc-pages",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "yzc-pages",
+    "zce"
+  ],
+  "repository": "yzc/yzc-pages",
+  "license": "MIT",
+  "author": "yuanbeibei <yuanbb@gresgying.com> (https://github.com/guduqiucai)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.4"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
