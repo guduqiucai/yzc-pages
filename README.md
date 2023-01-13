@@ -12,5 +12,4 @@ $ yarn add yzc-pages
 ```
 
 ## API
-
 yzc-pages build
