@@ -1,6 +1,6 @@
 {
   "name": "yzc-pages",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Awesome node modules.",
   "keywords": [
     "yzc-pages",
@@ -10,9 +10,13 @@
   "license": "MIT",
   "author": "yuanbeibei <yuanbb@gresgying.com> (https://github.com/guduqiucai)",
   "main": "lib/index.js",
-  "files": ["lib", "bin"],
+  "files": [
+    "lib",
+    "bin"
+  ],
   "bin": "bin/yzc-pages.js",
-  "scripts": {"bin": "bin/yzc-pages.js",
+  "scripts": {
+    "bin": "bin/yzc-pages.js",
     "lint": "standard --fix",
     "prepare": "npm run lint"
   },
@@ -40,8 +44,8 @@
     "gulp-uglify": "^3.0.2",
     "gulp-useref": "^5.0.0",
     "sass": "^1.57.1",
-    "useref": "^1.4.4",
-    "standard": "16.0.4"
+    "standard": "16.0.4",
+    "useref": "^1.4.4"
   },
   "engines": {
     "node": ">=12"
